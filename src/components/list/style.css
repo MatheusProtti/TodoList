@@ -1,0 +1,34 @@
+.task {
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #111;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task li {
+    list-style: none;
+}
+
+.actives {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 40px;
+}
+
+button {
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.done{
+    text-decoration: line-through;
+}
